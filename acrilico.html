@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINKS PARA CSS E BOOTSTRAPS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- LINK PLUGIN SLIDE SHOW SLICK -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- FAVICON SITE -->
+    <link rel="shortcut icon" href="/imagens/icones-logos/FAVICON.png" type="image/x-icon">
+    <title>PERSONNALIZA UP</title>
+</head>
+<body>
+    <!-- LOGO E MENU -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/imagens/icones-logos/logo-personnaliza-up.png" alt="Logo Personnaliza UP">
+                </a>
+            </div>
+            <h1>Personnaliza UP</h1>
+            <!-- BOTÃO MENU PARA VERSÃO MOBILE -->
+            <div class="botao-menu">
+                <button type="button" class="btn btn-outline-warning">MENU</button>
+            </div>
+            <!-- MENU TOPO -->
+            <nav class="container">
+                <ul class="menu">
+                    <li>
+                        <a href="/sobre.html">SOBRE NÓS</a>
+                    </li>
+                    <li>
+                        PRODUTOS
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/lonas.html">LONAS</a>
+                            </li>
+                            <li>
+                                <a href="/adesivos.html">ADESIVOS</a>
+                            </li>
+                            <li>
+                                <a href="/placas.html">PLACAS</a>
+                            </li>
+                            <li>
+                                <a href="/fachadas.html">FACHADAS</a>
+                            </li>
+                            <li>
+                                <a href="/letreiros.html">LETREIROS</a>
+                            </li>
+                            <li>
+                                <a href="/vitrines.html">VITRINES</a>
+                            </li>
+                            <li>
+                                <a href="/totens.html">TOTENS</a>
+                            </li>
+                            <li>
+                                <a href="/luminosos.html">LUMINOSOS</a>
+                            </li>
+                            <li>
+                                <a href="/paineis.html">PAINÉIS</a>
+                            </li>
+                            <li>
+                                <a href="/plotagem.html">PLOTAGEM VEÍCULAR</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        MATERIAIS
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/pvc.html">PVC</a>
+                            </li>
+                            <li>
+                                <a href="/acrilico.html">ACRÍLICO</a>
+                            </li>
+                            <li>
+                                <a href="/aco.html">AÇO</a>
+                            </li>
+                            <li>
+                                <a href="/acm.html">ACM</a>
+                            </li>
+                            <li>
+                                <a href="/vidro.html">VIDRO</a>
+                            </li>
+                            <li>
+                                <a href="/mdf.html">MDF</a>
+                            </li>
+                            <li>
+                                <a href="/vinil.html">VINIL ADESIVO</a>
+                            </li>
+                            <li>
+                                <a href="/led.html">LED</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/terceirizacao.html">TERCEIRIZAÇÃO</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            <div class="clear"></div>
+        </nav>
+        </div>
+    </header>
+    <!-- SLIDESHOW TOPO -->
+    <div id="carousel-serviços">
+        <img src="/imagens/slide-show/slide-idr-parana.jpg" alt="Letreiro IDR-Paraná">
+        <img src="/imagens/slide-show/slide-fachada-lona.jpg" alt="Fachada Revestida em Lona">
+        <img src="/imagens/slide-show/slide-calceleve-plotagem.jpg" alt="plotagem em carro Calceleve">
+        <img src="/imagens/slide-show/slide-tim-fachada.jpg" alt="Fachada Loja TIM">
+        <img src="/imagens/slide-show/slide-vellore-letreiro.jpg" alt="Letreiro de Portal Vellore">
+        <img src="/imagens/slide-show/slide-mob-luminoso.jpg" alt="letreiro luminoso MOB">
+        <img src="/imagens/slide-show/slide-nuciber-placa.jpg" alt="Placa com letreiro Nuciber">
+    </div>
+    <!-- ESTRUTURA CORPO SITE -->
+    <main class="container conteudo"></main>
+    <!-- FORMULÁRIO DE CONTATO -->
+    <section class="container conteudo" id="contato">
+        <div class="row">
+            <div class="col">
+                <h2>Entre em Contato</h2>
+                <p>
+                    Entre em contato conosco e descubra como podemos ajudá-lo a criar uma comunicação visual impactante e eficiente para o seu negócio!
+                </p>
+                <form>
+                    <label class="form-label" for="nome">Seu Nome:</label>
+                    <input class="form-control" type="text" id="nome"/>
+                    <label class="form-label" for="telefone">Tefone para contato:</label>
+                    <input class="form-control" type="text" id="telefone"/>
+                    <label class="form-label" for="email">Seu e-mail:</label>
+                    <input class="form-control" type="text" id="email"/>
+                    <label class="form-label" for="mensagem">Sua Mensagem:</label>
+                    <textarea class="form-control" id="mensagem"></textarea>
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="aceitar-termos">Autorizo o Envio</label>
+                    <input class="form-check-input" type="checkbox" id="aceitar-termos">
+                    </div>
+                    <button class="btn btn-outline-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--RODAPÉ DA PÁGINA-->
+    <footer id="social-links">
+        <div class="nos-acompanhe">
+            <ul class="social-links">
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5541998993983&text=" title="Fale com a gente no whatsapp" target="_blank">
+                        <img src="/imagens/icones-logos/whatsapp-icone-branco.png" alt="Logo do whatsapp" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/personnalizaup/" title="Siga-nos no Instagram" target="_blank">
+                        <img src="/imagens/icones-logos/instagram-icone-branco.png" alt="Logo do Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/personnalizavisual/" title="Siga-nos no Facebook" target="_blank">
+                        <img src="/imagens/icones-logos/facebook-icone-branco.png" alt="Logo do Facebook" />
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Rua Doutor Pamphilo D´Assumpção, 487. Rebouças, Curitiba - PR. CEP: 80220-040
+            </p>
+        </div>
+        <div>
+            <p>
+                &copy; Personnaliza UP Ltda - Todos os direitos reservados - 2024.
+                Desenvolvido por André Soares
+            </p>
+        </div>
+    </footer>
+    <!-- LINK JAVASCRIPT -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
