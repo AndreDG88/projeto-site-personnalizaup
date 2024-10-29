@@ -319,6 +319,53 @@ header h1 {
     padding: 10px;
 }
 
+/*CONFIGURAÇÃO PÁGINA VITRINES*/
+#pagina-vitrines {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#pagina-vitrines #texto-vitrines {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#pagina-vitrines #primeiro-paragrafo {
+    font-size: 20px;
+}
+
+#pagina-vitrines h2, h3 {
+    color: rgb(255, 166, 0);
+    padding: 10px;
+}
+
+#pagina-vitrines img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/*CONFIGURAÇÃO PÁGINA TOTENS*/
+#pagina-totens {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#pagina-totens #texto-totens {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#pagina-totens #primeiro-paragrafo {
+    font-size: 20px;
+}
+
+#pagina-totens h2, h3 {
+    color: rgb(255, 166, 0);
+    padding: 10px;
+}
+
 /*CONFIGURAÇÃO RODAPÉ*/
 footer {
     background-color: rgb(0, 0, 0);
